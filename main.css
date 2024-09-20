@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", system-ui;
+}
+/* .container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+
+} */
+body{
+    display: grid;
+    justify-content: center;
+    background-color: gray;
+}    
+header h1 img{
+    height: 30px;
+    margin-right: 20px
+}
+header{
+    padding: 50px 0px;
+    color: #fff;
+}
+input,button{
+    margin-bottom: 25px;
+    padding: 8px;
+    outline: none;
+}
+button{
+    border: none;
+    background-color: rgb(125, 209, 0);
+
+}
+input{
+    text-align: center;
+    font-family: "Montserrat", system-ui;
+}
+ul{
+    text-align: center;
+    list-style-type:none ;
+    color: #fff;
+    display: none;
+}
+.btn_cancel{
+    background-color: red;
+}
+.riscar{
+    text-decoration: line-through;
+}
